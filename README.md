@@ -148,7 +148,7 @@ public:
 
 **Portfolio:** https://devanshlabs-devs.netlify.app/
 
-**LinkedIn:** *(Add your LinkedIn profile here)*
+**LinkedIn:** https://www.linkedin.com/in/devansh-singh-31bb5722b
 
 ---
 
