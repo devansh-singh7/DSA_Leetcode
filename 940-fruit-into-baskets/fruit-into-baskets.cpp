@@ -1,6 +1,9 @@
 class Solution {
 public:
     int totalFruit(vector<int>& fruits) {
+
+        // ASKED IN AMAZON.
+        
         int n = fruits.size();
         int low = 0;
         unordered_map <int, int> f;
