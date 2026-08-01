@@ -27,29 +27,6 @@ The goal of this repository is to:
 
 ---
 
-## 📂 Repository Structure
-
-```
-LeetCode-DSA/
-│
-├── Arrays/
-├── Strings/
-├── Linked List/
-├── Stack/
-├── Queue/
-├── Trees/
-├── Binary Search/
-├── Recursion/
-├── Dynamic Programming/
-├── Graphs/
-├── Greedy/
-├── Backtracking/
-├── Bit Manipulation/
-└── README.md
-```
-
----
-
 ## 📊 Topics Covered
 
 - ✅ Arrays
@@ -114,21 +91,25 @@ public:
 
 ---
 
-## 📈 Progress
+## 📈 DSA Progress Tracker
 
-| Topic | Status |
-|--------|--------|
-| Arrays | ✅ |
-| Strings | ✅ |
-| Linked List | ⏳ |
-| Stack | ⏳ |
-| Queue | ⏳ |
-| Trees | ⏳ |
-| Graphs | ⏳ |
-| Dynamic Programming | ⏳ |
-| Greedy | ⏳ |
-| Recursion | ⏳ |
-| Backtracking | ⏳ |
+| # | DSA Pattern | Status |
+|---|-------------|:------:|
+| 01 | Two Pointers | ✅ |
+| 02 | Sliding Window | ✅ |
+| 03 | Slow & Fast Pointer | ⏳ |
+| 04 | Kadane's Algorithm | ⏳ |
+| 05 | Prefix Sum | ⏳ |
+| 06 | Merge Intervals | ⏳ |
+| 07 | In-Place Reversal of a Linked List | ⏳ |
+| 08 | Stack | ⏳ |
+| 09 | Hash Maps | ⏳ |
+| 10 | Binary Search | ⏳ |
+| 11 | Heap Pattern | ⏳ |
+| 12 | Trees | ⏳ |
+| 13 | Graphs | ⏳ |
+| 14 | Dynamic Programming (DP) | ⏳ |
+
 
 ---
 
