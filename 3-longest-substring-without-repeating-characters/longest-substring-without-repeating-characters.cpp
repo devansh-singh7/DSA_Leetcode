@@ -1,8 +1,12 @@
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
+
+        // SLIDING - WINDOW
         
-        // HARD QUESTION: Revision Required.
+        // MEDIUM To HARD QUESTION: But more on the harder side. For understanding the K value.
+
+        // REVISION IS REQUIRED 100%.
 
         int low = 0;
         int n = s.size();
@@ -28,7 +32,8 @@ public:
                 }
 
                 low++;
-
+                // We need to calculate the K value again as low value is changes (as low++).
+                // So, new K is required.
                 K = high -low + 1;
             }
 
