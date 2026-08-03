@@ -1,6 +1,7 @@
 class Solution {
 public:
 
+    // Function to return the max frequency.
     int frequency(vector<int> &a) {
         int max_count = -1;
         for(int i=0; i<256; i++)
@@ -14,11 +15,13 @@ public:
         int low = 0, high;
         int n = s.size();
         int res = INT_MIN;
-        vector<int> mp(256, 0);
+        vector<int> mp(256, 0); // Take a vector ill 256 as all the elements in the Computer Science are total 256.
+        // So, when we find a element in a string we update the frequency in this vector.
 
         for(high=0; high<n; high++)
         {
-            mp[s[high]]++; // Add value to vector.
+            mp[s[high]]++; // Add value to vector. 
+            // Update the count is done here.
 
             int len = high - low + 1;
             int max_freq = frequency(mp); // find max frequency of a element.
@@ -28,6 +31,7 @@ public:
             {
                 mp[s[low]]--;
                 low++;
+                // No need of erase funcion as we are dealing with a vector/array.
 
                 // Need to find evrything again for next iteration as the value of low changed.
                 max_freq = frequency(mp);
