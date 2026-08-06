@@ -3,7 +3,11 @@ public:
 
     // Time Complexity: O(log n)
     // Space Complexity: O(1)
-    
+
+
+    // Fast & Slow Pointer Algorithm
+
+
     // Function to get sum
     int fun(int n){
         int sum = 0;
