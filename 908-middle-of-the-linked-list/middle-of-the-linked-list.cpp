@@ -11,6 +11,12 @@
 class Solution {
 public:
     ListNode* middleNode(ListNode* head) {
+
+        // Fast & Slow Pointer Algorithm
+
+        // TC: O(N)
+        // SC: O(1)
+        
         ListNode *slow = head;
         ListNode *fast = head;
 
@@ -20,14 +26,14 @@ public:
             fast = fast->next->next;  // 2-Step
         }
         
-        // As this prints when while break if while break then 2 cases asre their.
-        // CASE 1: Fast is NULL so no iteration.
-        // CASE 2: Fast->next is null that means fast pointer is in the last node.
-        // That means slow is in the middle.
+        // As this will prints when while loop break. If while break then 2 cases are their.
+        // CASE 1: Fast is NULL so no iteration. No linked list present.
+        // CASE 2: Fast->next is NULL that means fast pointer reached the last node.
+        // That means slow pointer is in the middle.
 
-        // Explanation: If a runs at a speed of 4km/hrs and B runs at a speed of 2km/hrs.
-        // If we make them race so when B will win the race then A have covered only half the race track.
-        // Becasue speed of B is twice of A.
+        // Explanation: If A runs at a speed of 4km/hrs and B runs at a speed of 2km/hrs.
+        // If we make them race so when A will win the race, by that time B have covered only half the race track.
+        // Becasue speed of A is twice of B.
 
         return slow;  
     }
